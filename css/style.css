@@ -38,6 +38,27 @@ h2:after {
 
 }
 
+h3 {
+  font-weight: 300;
+  color: #555;
+}
+
+.btn-kontakt {
+  color: #fff;
+  border: 1px solid #006742;
+  border-color: #006742;
+  background-color:#006742 ;
+  padding: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-kontakt:hover {
+  color: #006742;
+  border-color: #006742;
+  background-color: transparent;
+}
+
 /* ------ Paragraphs ------ */
 
 p {
@@ -110,6 +131,7 @@ header {
 }
 
 .home-picture {
+  width: 100%;
   height: 85%;
   padding: 0;
   background-size: cover;
@@ -193,4 +215,51 @@ header {
 
 .welcome-section .row {
   text-align: center;
+}
+
+/* ------------------------------- */
+/* ---------- Footer ---------- */
+/* ------------------------------- */
+
+footer {
+  background-color: rgb(226, 226, 226);
+  font-size: 70%;
+}
+
+footer h3 {
+  margin: 10px auto 5px auto;
+  /* color: #96BF02; */
+}
+
+footer a:link,
+footer a:visited {
+  color: #96BF02;
+}
+
+.kontakt-foot {
+  text-align: center;
+}
+
+.impressum div {
+  margin: 0 auto;
+}
+
+.impressum a:link,
+.impressum a:visited {
+  color: #555;
+  font-size: 140%;
+}
+
+.footer-icon div {
+  margin: 0 auto;
+}
+
+.footer-icon ion-icon {
+  font-size: 32px;
+  color: #555;
+}
+
+.footer-icon ion-icon:hover {
+  font-size: 32px;
+  color: #4267B2;
 }
