@@ -18,3 +18,30 @@ $(document).ready(function(){
     
     header.css('background-image', backgrounds[0]);
     });
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+var x = document.getElementsByClassName("nav-link");
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    // document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("main-logo").style.width = "50px";
+    let i;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.paddingBottom = "10px";
+    }
+    
+    document.querySelector(".navbar-nav").style.marginTop = "10px";
+  } else {
+    // document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("main-logo").style.width = "120px";
+    let i;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.paddingBottom = "30px";
+    }
+    document.querySelector(".navbar-nav").style.marginTop = "35px";
+  }
+}

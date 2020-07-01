@@ -50,8 +50,8 @@ h3 {
   border: 1px solid #006742;
   border-color: #006742;
   background-color:#006742 ;
-  padding: 5px 10px;
-  border-radius: 20px;
+  padding: 10px 15px;
+  border-radius: 25px;
   transition: background-color 0.3s;
   font-size: 90%;
 }
@@ -84,7 +84,7 @@ header {
   background-size: cover;
   overflow: hidden;
   position: relative;
-  z-index: 100;
+  z-index: 90;
 }
 
 #opacity{
@@ -101,6 +101,10 @@ header {
   margin: 0;
   box-shadow: 0 2px 2px #bbb;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar .container .navbar-brand {
@@ -114,7 +118,7 @@ header {
 
 .navbar .container .collapse .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-weight: 350;
+  font-weight: 400;
   padding: 5px 0 30px 0;
   margin-right: 30px;
   font-size: 88%;
@@ -137,11 +141,12 @@ header {
 
 .home-picture {
   width: 100%;
-  height: 90%;
+  height: 100%;
   padding: 0;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 90px;
 }
 
 .gradient {
@@ -184,9 +189,10 @@ header {
 
 .info-section {
   position: relative;
-  z-index: 100;
+  z-index: 8;
   overflow: hidden;
   background-color: #fff;
+  padding-bottom: 100px;
 }
 
 .info-section .row .covid-info {
@@ -227,7 +233,7 @@ header {
 .welcome-section {
   background-color: #f8fde7;
   position: relative;
-  z-index: 100;
+  z-index: 9;
   margin-bottom: 352px;
   overflow: hidden;
 }
@@ -288,4 +294,11 @@ footer a:visited {
 
 .footer-icon img:hover {
   filter: invert(38%) sepia(72%) saturate(525%) hue-rotate(182deg) brightness(86%) contrast(86%);
+}
+
+svg{
+  position:absolute;
+  bottom:-10px; left:0;
+  width:100%; height:100px;
+  display:block;
 }
