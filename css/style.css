@@ -46,6 +46,8 @@ h3 {
 /* ------ Buttons ------ */
 
 .btn-kontakt {
+  position: absolute;
+  left: 85%;
   color: #fff;
   border: 1px solid #006742;
   border-color: #006742;
@@ -53,13 +55,13 @@ h3 {
   padding: 10px 15px;
   border-radius: 25px;
   transition: background-color 0.3s;
-  font-size: 90%;
+  font-size: 110%;
 }
 
 .btn-kontakt:hover {
   color: #006742;
   border-color: #006742;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 /* ------ Paragraphs ------ */
