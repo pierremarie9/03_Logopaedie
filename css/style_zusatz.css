@@ -54,15 +54,15 @@ body {
 }
 
 .container1 .card:nth-child(1) .icon {
-    background: #3BAF4C;
+    background: #96BF02;
 }
 
 .container1 .card:nth-child(2) .icon {
-    background: #009970;
+    background: #006742;
 }
 
 .container1 .card:nth-child(3) .icon {
-    background: #007F7F;
+    background: #96BF02;
 }
 
 .container1 .card .icon .fa {
@@ -98,10 +98,6 @@ i {
 
 .container1 .card .content p {
     font-size: 1rem;
-}
-
-.container1 .card .content a {
-    font-weight: 600;
 }
 
 .container1 .card .face.face1 {
@@ -151,7 +147,7 @@ i {
 .container1 .card .face.face2 .content p {
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: justify;
     color: #414141;
 }
 
@@ -167,6 +163,15 @@ i {
 .container1 a {
     text-decoration: none;
     color: #414141;
+    font-weight: 600;
+}
+
+.container1 a:hover {
+    text-decoration: none;
+    color: #414141;
+    font-weight: 600;
+    font-size: 1.2rem ;
+    
 }
   
   /* ------ Titles ------ */
