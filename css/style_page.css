@@ -137,6 +137,7 @@
   
   #main-logo {
     width: 120px;
+    transition: width 0.8s;
   }
   
   .navbar {
@@ -284,10 +285,10 @@
       border: none;
   }
 
-  .card:hover {
+  /*.card:hover {
       border: solid 1px #999999;
       box-shadow: 2px 2px 2px #999;
-  }
+  } */
   
 
   /* ---------- Welcome section ---------- */

@@ -96,6 +96,7 @@ header {
 
 #main-logo {
   width: 120px;
+  transition: width 0.8s;
 }
 
 .navbar {

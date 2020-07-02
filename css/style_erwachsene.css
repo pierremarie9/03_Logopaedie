@@ -140,6 +140,7 @@
   
   #main-logo {
     width: 120px;
+    transition: width 0.8s;
   }
   
   .navbar {
@@ -251,14 +252,21 @@
     margin-top: 0px;
   }
 
-  .intro-section p,
-  .part1-section p {
-      color: #EEF5CE;
-      font-weight: 300;
+  .intro2-section ul {
+      text-align: left;
+      width: 70%;
+      margin: 0 auto;
   }
 
-  .intro-section h3, .part1-section h3{
-      
+  .intro2-section .row {
+      padding-top: 20px;
+  }
+
+  .intro-section p,
+  .part1-section p,
+  .part2-section p {
+      color: #EEF5CE;
+      font-weight: 300;
   }
   
   .intro-section .row .fields-title {
@@ -329,6 +337,7 @@
   
   .part1-section .row {
     text-align: center;
+    padding-top: 20px;
   }
 
     /* ---------- part2 section ---------- */
@@ -343,6 +352,8 @@
       
       .part2-section .row {
         text-align: center;
+        padding-bottom: 30px;
+        padding-top: 20px;
       }
   
   /* ------------------------------- */
