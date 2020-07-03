@@ -41,6 +41,15 @@
   h3 {
     font-weight: 300;
     color: #555;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-weight: 400;
+    color:#555;
+    margin-top: 2rem;  
   }
   
   /* ------ Buttons ------ */
@@ -112,6 +121,19 @@
     background-color: #708f0a;
     border-color: #708f0a;
 }
+
+/*----------Images----------*/
+
+#mkt {
+  height: 200px;
+}
+
+.teamimg {
+  width: 180px;
+  border-radius: 50%;
+}
+
+
   
   /* ------ Paragraphs ------ */
   
@@ -316,6 +338,25 @@
 
   .kontakt-section h3 {
     font-size: 2rem;
+  }
+
+  /* ---------- Team section ---------- */
+
+  .teamname {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .right {
+    text-align: end;
+  }
+
+  .team-member {
+    margin-bottom: 100px;
   }
 
   /* ------------------------------- */
